@@ -133,11 +133,27 @@ p(90) = 262.92ms, p(95) = 488.92ms, error 0.00%. Нэгтгэсэн нэг summa
 
 ## Дэлгэцийн зургууд
 
-[screenshots/](screenshots/) хавтаст:
+**5 VU, 1 мин**
 
-- `run-05vu.png`, `run-30vu.png`, `run-100vu.png` — гурван түвшний summary
-- `run-stages.png` — stages summary
-- `thresholds-pass.png`, `thresholds-fail.png` — THRESHOLDS хэсэг (✓ / ✗)
+![5 VU](screenshots/run-05vu.png)
+
+**30 VU, 1 мин**
+
+![30 VU](screenshots/run-30vu.png)
+
+**100 VU, 1 мин**
+
+![100 VU](screenshots/run-100vu.png)
+
+**Stages (5 → 30 → 100 → 0)**
+
+![Stages](screenshots/run-stages.png)
+
+**Thresholds FAIL (`p(95)<50`)**
+
+![Thresholds FAIL](screenshots/thresholds-fail.png)
+
+Threshold PASS гаралтыг [results/local-thresholds-pass.txt](results/local-thresholds-pass.txt)-ээс үзнэ үү.
 
 ## Ажиллуулах
 
